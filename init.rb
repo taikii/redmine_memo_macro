@@ -5,7 +5,7 @@ Redmine::Plugin.register :redmine_memo_macro do
   description 'This macro does not generate anything.'
   version '1.0.0'
   url 'https://github.com/taikii/redmine_memo_macro'
-  author_url 'https://taikii.net'
+  author_url 'https://github.com/taikii'
 
   Redmine::WikiFormatting::Macros.register do
     desc "This macro does not generate anything."
